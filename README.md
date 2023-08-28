@@ -9,10 +9,10 @@ $ mkdir tw; cd tw
 $ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
 
 # Clone a12 repo
-$ git clone https://github.com/edward0181/android_device_samsung_a12 -b twrp-11.0 device/samsung/a12
+$ git clone https://github.com/MrFluffyOven/android_device_samsung_a12_project_r -b main device/samsung/a12
 
 # Clone a12 kernel
-$ git clone https://github.com/edward0181/android_kernel_samsung_a12 kernel/samsung/a12
+$ git clone https://github.com/MrFluffyOven/device_samsung_kernel_a12 kernel/samsung/a12
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
@@ -27,5 +27,5 @@ Your DATA partition will be secured against re-encryption.
 
 Blobs version:
 > Kernel base: Compiled from source.
-> Ramdisk, DTB, DTBO base: A125FXXU2BVB4
+> Ramdisk, DTB, DTBO base: A125FXXS3CWE1
 
