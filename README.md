@@ -6,7 +6,7 @@
 $ mkdir tw; cd tw
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
+$ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
 
 # Clone a12 repo
 $ git clone https://github.com/MrFluffyOven/a12 -b twrp-12.1 device/samsung/a12
