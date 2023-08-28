@@ -5,3 +5,6 @@ ro.boot.dynamic_partitions=true
 sys.usb.controller=musb-hdrc
 #fbe.metadata.wrappedkey=true
 ro.boot.boot_devices=bootdevice,soc/11230000.mmc,11230000.mmc,soc/11270000.ufshci,11270000.ufshci
+ro.secure=0
+security.perf_harden=0
+ro.adb.secure=0
