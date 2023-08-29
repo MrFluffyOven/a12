@@ -86,7 +86,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/samsung/a12
-TARGET_KERNEL_CONFIG := mt6765-general_variant
+TARGET_KERNEL_CONFIG := mediatek_debug_defconfig
 
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
